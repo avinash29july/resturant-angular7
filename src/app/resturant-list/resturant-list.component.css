@@ -1,0 +1,71 @@
+.outer-div {
+  margin: 10px 0 0;
+  border: 1px solid #AAA;
+  border-radius: 5px;
+  padding: 10px 10px 5px;
+}
+p {
+  margin: 0 0 5px;
+}
+.heading-name {
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: 500;
+  color: #800000;
+}
+.heading-cusine {
+  font-size: 9px;
+}
+.heading-city {
+  font-size: 12px;
+  font-weight: 500;
+}
+.heading-rating {
+  font-size: 10px;
+  font-weight: 500;
+  color: #AAA;
+}
+.color-orange {
+  color: #FFAA00;
+}
+.rating {
+  font-size: 10px;
+}
+hr {
+  margin: 10px 0 2px;
+}
+.icon-div {
+  position: absolute;
+  right: 30px;
+  top:15px;
+}
+.content-div {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+.content-div p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 240px;
+}
+.image-div {
+  max-width: 100px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.my-pagination /deep/ .ngx-pagination .current {
+  margin: 10px 15px;
+  background: #FFAA00;
+}
+.margin-10 {
+  margin: 10px 0;
+}
+.btn-orange {
+  background-color: #FFAA00;
+  border-color: #FFAA00;
+}
+.btn-orange:hover {
+  color: #FFF;
+}
